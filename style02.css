@@ -1,0 +1,175 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    background-image: url(img4.jpg);
+    min-height: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  
+  h1 {
+    font-family: 'Sonsie One', cursive;
+  }
+  
+ 
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(255, 62, 181);
+    text-shadow: 2px 2px 10px black;
+  }
+  
+ 
+ .inicio {
+  padding-top: 45px;
+ }
+  
+  nav {
+    background-color: white;
+    padding: 1%;
+    
+  }
+  
+  nav {
+    height: 50px;
+    background-color:  #a10a55;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+
+  div.container {
+    display: inline-block;
+    }
+    
+    div.container-a img {
+    width: 50%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    background-color: #b86404ea;
+    float:left;
+    width:550px;
+    height:410px;   
+   
+    }
+
+    div.container-b img {
+      width: 50%;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: black;
+      padding: 10px;
+      background-color: #b86404ea;
+	    display: inline-block;
+    }
+
+    .botão {
+      font-family: arial;
+      font-size: 15px;
+      text-transform: uppercase; 
+      font-weight: 700; 
+      border: none; 
+      padding: 10px;
+      cursor: pointer;
+      color: #00032A;
+      background: #E5DE1E;
+      box-shadow: 0px 5px 0px #cccc00;
+      float: right;
+      }
+      
+      .botão:hover {
+      background: #cccc00;
+      box-shadow: #cccc00;
+        }
+
+        .botão:active {
+        position: relative;
+        top: 5px;
+        box-shadow: none;
+        }
+
+        .imagem{
+
+          float: left;
+        }
+        
+        img{
+          width: 100%;
+        }
+        .teste {
+          width: 98%;
+          padding: 5px;
+          margin-top: absolute;
+          text-align: justify;
+          font-size:  200%;
+          color: white;
+          font-weight: bold;
+          
+
+
+        }
+
+        section {
+          padding-top: 30px;
+
+        }
+
+        .logo {
+          width: 7%;
+          float: left;
+        }
+
+        .fotos {
+          padding-top: 30px;
+          list-style: none;
+          display: flex;
+          justify-content: space-around;
+        }
+
+        
+
+
+       

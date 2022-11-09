@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+
+    <style>
+         html {
+    font-size: 10px;
+    background-image: url(img4.jpg);
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+       
+        .login{
+            background-color: rgba(165, 11, 119);
+            position: absolute;
+            border-radius: 25px;
+            border-style: solid;
+            border-color: black;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 50px;
+            color: white;
+            font-size: 20px;
+        }
+        input{
+            border-radius: 5px;
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        .inputSubmit{
+            background-color: rgb(126, 5, 110);
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+        }
+        .inputSubmit:hover{
+            background-color: rgb(52, 64, 236);
+            cursor: pointer;
+        }
+
+        nav {
+    background-color: white;
+    padding: 1%;
+    
+  }
+  
+  nav {
+    height: 50px;
+    background-color:  #ff76bb;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+  
+ 
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(230, 5, 144);
+    text-shadow: 2px 2px 10px black;
+    font-family:"http://bebasfont.com";
+
+  }
+  
+  .inicio {
+  padding-top: 45px;
+ }
+ 
+  
+    </style>
+</head>
+<body>
+  <header class="container">
+    <h1> <img src="logo.jpg" alt="ARP LOGO" style="width: 6%; float: left;"> Girls Burger</h1>
+  </header>
+<div class="inicio">
+    <nav>
+        <ul>
+          <li><a href="home02.html" >Home</a></li>
+          <li><a href="cadastro02.html">Cadastro</a></li>
+          <li><a href="login02.html">Login</a></li>
+          <li><a href="cardapio02.html">Cardápio</a></li>
+
+        </ul>
+    </nav>
+</div>
+
+    <div class="login">
+    <h1>Login</h1>
+    <form action="" method="">
+        <input type="email" name="email" placeholder="Email">
+        <br><br>
+         <input type="password" name="senha" placeholder="Senha">
+        <br><br>
+    <input class="inputSubmit" type="submit" name="submit" value="Enviar">
+    <br><br>
+
+    </form>
+    </div>
+
+</body>
+</html>

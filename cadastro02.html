@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        html {
+          font-size: 10px;
+          background-image: url(img4.jpg);
+          min-height: 120%;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+         .box{
+             position: absolute;
+             top: 70%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+             background-color: rgb(148, 3, 83);
+             padding: 15px;
+             border-radius: 15px;
+         }
+         fieldset{
+             border: 3px solid white;
+         }
+         legend{
+             border: 1px solid white;
+             padding: 10px;
+             text-align: center;
+             background-color: white;
+             border-radius: 8px;
+             font-size: 140%;color: black;
+             font-weight: bold;
+             
+
+         }
+         .inputBox{
+             position: relative;
+             font-size:  140%;color: black;
+             font-weight: bold;
+
+         }
+         .inputUser{
+             background-color: white;
+             border: 10px;
+             border-bottom: 1px solid white;
+             outline: none;
+             color: rgb(0, 0, 0);
+             font-size: 15px;
+             width: 100%;
+             letter-spacing: 2px;
+         }
+
+        
+ 
+  h1 {
+    font-family: 'Sonsie One', cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(230, 5, 144);
+    text-shadow: 2px 2px 10px black;
+  }
+  
+ 
+ 
+  
+  nav {
+    background-color: white;
+    padding: 1%;
+    
+  }
+  
+  nav {
+    height: 50px;
+    background-color:  #ff76bb;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+  .inputSubmit {
+    background-color: rgb(126, 5, 110);
+    border: none;
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+  }
+
+  .inputSubmit:hover{
+    background-color: rgb(225, 59, 245);
+    cursor: pointer;
+  }
+  
+  p {
+    font-size:  150%;color: black;
+
+  }
+
+  .inicio {
+  padding-top: 45px;
+ }
+
+    </style>
+
+</head>
+
+<body>
+      <header class="container">
+        <h1> <img src="logo.jpg" alt="ARP LOGO" style="width: 6%; float: left;"> Girls Burger</h1>
+      </header>
+<div class="inicio">
+  <nav>
+    <ul>
+      <li><a href="home02.html" >Home</a></li>
+      <li><a href="cadastro02.html">Cadastro</a></li>
+      <li><a href="login02.html">Login</a></li>
+      <li><a href="cardapio02.html">Cardápio</a></li>
+
+    </ul>
+
+  </nav>
+</div>
+    <div class="box">
+        <form action="" method="">
+            <fieldset>
+                <legend>Cadastre-se</legend>
+            
+            <br>
+            <div class="inputBox">
+                <label for="nome" class="labelInput">Nome completo</label>
+                <input type="text" name="nome" id="nome" class="inputUser" required>               
+            </div>
+            <br><br>
+    
+            <div class="inputBox">
+                <label for="senha" class="labelInput">Senha</label>
+                <input type="password" name="senha" id="senha" class="inputUser" required>
+            </div>
+            <br><br>
+    
+            <div class="inputBox">
+                <label for="email" class="labelInput">Email</label>
+                <input type="email" name="email" id="email" class="inputUser" required>
+            </div>
+            <br><br>
+    
+            <div class="inputBox">
+                <label for="telefone" class="labelInput">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+            </div>
+            <br><br>
+            <p>Sexo</p>
+            <input type="radio" name="genero" id="feminino" value="feminino" required>
+            <label for="feminino">Feminino</label>
+            <br>
+            <input type="radio" name="genero" id="masculino" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <br>
+            <input type="radio" name="genero" id="outro" value="outro" required>
+            <label for="outro">Outro</label>
+            <br>
+            <label for="data_nascimento"><b>Ano de Nascimento</b></label>
+            <input type="date" name="data_nascimento" id="data_nascimento" required>
+            <br><br>
+            <div class="inputBox">
+                <label for="cidade" class="labelInput">Cidade</label>
+                <input type="text" name="cidade" id="cidade" class="inputUser" required>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <label for="estado" class="labelInput">Estado</label>
+                <input type="text" name="estado" id="estado" class="inputUser" required>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <label for="endereco" class="labelInput">Endereço</label>
+                <input type="text" name="endereco" id="endereco" class="inputUser" required>
+            </div>
+            <br><br>
+        <input class="inputSubmit" type="submit" name="submit" value="Enviar">
+        <br><br>
+           </fieldset>
+        </form>
+
+        <p>Já tem conta? <a href="login02.html">Entrar</a> </p>
+    </div>
+    
+</body>
+</html>
